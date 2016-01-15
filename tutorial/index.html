@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Akka-scheduler by anand-singh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<section class="page-header">
+    <h1 class="project-name">Akka-scheduler</h1>
+    <h2 class="project-tagline">Schedule sending of messages to actors and execution of tasks</h2>
+    <a href="https://github.com/anand-singh/akka-scheduler" class="btn">View on GitHub</a>
+    <a href="https://github.com/anand-singh/akka-scheduler/zipball/master" class="btn">Download .zip</a>
+    <a href="https://github.com/anand-singh/akka-scheduler/tarball/master" class="btn">Download .tar.gz</a>
+</section>
+
+<section class="main-content">
+    <h1>
+        <a id="akka-scheduler" class="anchor" href="#akka-scheduler" aria-hidden="true"><span class="octicon octicon-link"></span></a>akka-scheduler</h1>
+
+    <p>Schedule sending of messages to actors and execution of tasks</p>
+
+    <p>The approach using schedule is one good approach, although there is a potential for the messages to queue up if the work done on schedule is so great that it might take longer than the scheduled interval. If you want the interval to occur between the end of one iteration and the beginning of the next, then use scheduleOnce.</p>
+
+    <h4>
+        <a id="execute-scala-scheduler" class="anchor" href="#execute-scala-scheduler" aria-hidden="true"><span class="octicon octicon-link"></span></a>Execute Scala Scheduler</h4>
+
+<pre><code>$ ./activator "project akka-scala" run
+</code></pre>
+
+    <h4>
+        <a id="execute-java-scheduler" class="anchor" href="#execute-java-scheduler" aria-hidden="true"><span class="octicon octicon-link"></span></a>Execute Java Scheduler</h4>
+
+<pre><code>$ ./activator "project akka-java" run
+</code></pre>
+
+    <br><br><br><br>
+    <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/anand-singh/akka-scheduler">Akka-Scheduler</a> is maintained by <a href="https://github.com/anand-singh">anand-singh</a>.</span>
+    </footer>
+
+</section>
+
+
+</body>
+</html>
