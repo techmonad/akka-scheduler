@@ -6,6 +6,7 @@ The approach using schedule is one good approach, although there is a potential 
 #### Create a "akka-scheduler" project from the command line using Typesafe Activator
 
 If you have Typesafe Activator, use its command line mode to create a new project from this template.
+
 Type `activator new PROJECTNAME akka-scheduler` on the command line. 
 
 #### Execute Scala Scheduler
