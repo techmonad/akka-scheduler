@@ -5,7 +5,7 @@ import akka.testkit.JavaTestKit;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 
-public class PingPongActorTest {
+public class ActorTest {
 
     static ActorSystem system;
 

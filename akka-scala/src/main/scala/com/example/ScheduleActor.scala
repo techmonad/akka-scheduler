@@ -3,8 +3,9 @@ package com.example
 import java.util.Date
 
 import akka.actor.{Actor, ActorLogging, Props}
-import scala.concurrent.duration._
+
 import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.duration._
 
 /**
   * Created by anand on 1/14/16.

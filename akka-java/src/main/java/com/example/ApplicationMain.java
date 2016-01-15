@@ -8,7 +8,7 @@ import java.util.Date;
 public class ApplicationMain {
 
     public static void main(String[] args) {
-        ActorSystem system = ActorSystem.create("MyActorSystem");
+        ActorSystem system = ActorSystem.create("AkkaJavaActorSystem");
         ActorRef scheduleActor = system.actorOf(ScheduleActor.props(), "ScheduleActor");
         for (Long id = 1L; id <= 1000L; id++) {
             scheduleActor.tell(new ScheduleActor.Schedule(id, new Date()), null);
