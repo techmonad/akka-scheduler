@@ -2,7 +2,7 @@ name := """akka-scheduler"""
 
 version := "1.0"
 
-scalaVersion := "2.11.6"
+scalaVersion := "2.11.12"
 
 lazy val dependencies = Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.3.11",
