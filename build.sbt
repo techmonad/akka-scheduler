@@ -17,7 +17,7 @@ lazy val dependencies = Seq(
 lazy val root = Project("akka-scheduler", file(".")).aggregate(akkaScala, akkaJava)
 
 // --------------------------------------------------------------------------------
-// Akka Java
+// Akka Java 8
 // --------------------------------------------------------------------------------
 lazy val akkaJava = Project("akka-java", file("akka-java"))
   .settings(libraryDependencies ++= dependencies)
