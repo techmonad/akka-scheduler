@@ -31,7 +31,7 @@ lazy val dependencies = Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.6.14",
   "com.typesafe.akka" %% "akka-testkit" % "2.6.14" % "test",
   "org.scalatest" %% "scalatest" % "3.2.8" % "test",
-  "junit" % "junit" % "4.12" % "test",
+  "junit" % "junit" % "4.13.2" % "test",
   "com.novocode" % "junit-interface" % "0.11" % "test"
 )
 
