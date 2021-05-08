@@ -9,5 +9,5 @@ object ApplicationMain extends App {
   val scheduleActor = system.actorOf(ScheduleActor.props, "ScheduleActor")
   1 to 1000 foreach { id => scheduleActor ! ScheduleActor.Schedule(id, new Date)}
 
-  system.awaitTermination()
+  system.whenTerminated.wait()
 }

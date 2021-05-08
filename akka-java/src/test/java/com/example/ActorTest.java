@@ -1,7 +1,7 @@
 package com.example;
 
 import akka.actor.ActorSystem;
-import akka.testkit.JavaTestKit;
+import akka.testkit.javadsl.TestKit;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 
@@ -16,7 +16,7 @@ public class ActorTest {
 
     @AfterClass
     public static void tearDown() {
-        JavaTestKit.shutdownActorSystem(system);
+        TestKit.shutdownActorSystem(system);
         system = null;
     }
 
