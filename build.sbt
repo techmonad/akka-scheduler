@@ -35,3 +35,4 @@ lazy val dependencies = Seq(
   "com.novocode" % "junit-interface" % "0.11" % "test"
 )
 
+addCommandAlias("validate", "; clean; compile; test;")
