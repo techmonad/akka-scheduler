@@ -30,9 +30,9 @@ lazy val akkaScala = Project("akka-scala", file("akka-scala"))
 lazy val dependencies = Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.6.17",
   "com.typesafe.akka" %% "akka-testkit" % "2.6.17" % "test",
-  "org.scalatest" %% "scalatest" % "3.2.9" % "test",
+  "org.scalatest" %% "scalatest" % "3.2.10" % "test",
   "junit" % "junit" % "4.13.2" % "test",
-  "com.novocode" % "junit-interface" % "0.11" % "test"
+  "com.github.sbt" % "junit-interface" % "0.13.2" % "test"
 )
 
 addCommandAlias("validate", "; clean; compile; test;")
