@@ -32,7 +32,7 @@ lazy val dependencies = Seq(
   "com.typesafe.akka" %% "akka-testkit" % "2.6.18" % "test",
   "org.scalatest" %% "scalatest" % "3.2.10" % "test",
   "junit" % "junit" % "4.13.2" % "test",
-  "com.github.sbt" % "junit-interface" % "0.13.2" % "test"
+  "com.github.sbt" % "junit-interface" % "0.13.3" % "test"
 )
 
 addCommandAlias("validate", "; clean; compile; test;")
