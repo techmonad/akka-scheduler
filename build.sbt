@@ -28,9 +28,9 @@ lazy val akkaScala = Project("akka-scala", file("akka-scala"))
   .settings(libraryDependencies ++= dependencies)
 
 lazy val dependencies = Seq(
-  "com.typesafe.akka" %% "akka-actor" % "2.6.19",
-  "com.typesafe.akka" %% "akka-testkit" % "2.6.19" % "test",
-  "org.scalatest" %% "scalatest" % "3.2.11" % "test",
+  "com.typesafe.akka" %% "akka-actor" % "2.6.18",
+  "com.typesafe.akka" %% "akka-testkit" % "2.6.18" % "test",
+  "org.scalatest" %% "scalatest" % "3.2.12" % "test",
   "junit" % "junit" % "4.13.2" % "test",
   "com.github.sbt" % "junit-interface" % "0.13.3" % "test"
 )
