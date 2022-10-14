@@ -8,7 +8,7 @@ lazy val root = (project in file("."))
       List(
         organization := "com.techmonal",
         version := "0.0.1-SNAPSHOT",
-        scalaVersion := "2.13.9"
+        scalaVersion := "2.13.10"
       )
     ),
     name := "akka-scheduler"
